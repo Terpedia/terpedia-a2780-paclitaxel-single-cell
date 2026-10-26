@@ -14,4 +14,6 @@ The notebook downloads the 5.8 MB GEO processed matrix on demand and verifies it
 node report-generator.mjs research/transcriptomics/gse162256/report-spec.json
 ```
 
+To attach this example to your own `terpedia-report` Codespace, fork this repository into your GitHub account with the same repository name, then call `add_research_project_submodule` with slug `a2780-paclitaxel-single-cell`. Terputer's attachment tools require the project repository to belong to the linked account.
+
 A fresh run updates notebook and artifact hashes, so regenerate the report only after producing a matching execution receipt. The current report, ledger, and receipts refer to the committed notebook and result files. The result does not establish a replicated pathway, a controlled cell-context interaction, or a paclitaxel target dependency.
